@@ -1,10 +1,10 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-  name: "Next.js",
-  title: "Next.js Starter Template",
-  description:
-    "Next.js starter template with TypseScript, ESLint, Prettier, Tailwind CSS, and Shadcn/ui",
+  name: "Camod SitePlan",
+  url: "https://camod-site-plan.vercel.app", //TODO: need adjust by env value
+  title: "CAMOD SITE PLAN",
+  description: "A tool to help property business owner to create site easily",
   mainNav: [
     {
       title: "Home",
@@ -12,6 +12,6 @@ export const siteConfig = {
     },
   ],
   links: {
-    github: "https://github.com/A7med3bdulBaset",
+    github: "https://github.com/fadlikadn",
   },
 };
