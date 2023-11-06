@@ -9,6 +9,7 @@ import { Providers } from "@/components/providers";
 import { TailwindIndicator } from "@/components/tailwind-indicator";
 
 export const metadata: Metadata = {
+  metadataBase: new URL(siteConfig.url),
   title: {
     default: siteConfig.name,
     template: `%s - ${siteConfig.name}`,
@@ -18,7 +19,6 @@ export const metadata: Metadata = {
     { media: "(prefers-color-scheme: light)", color: "white" },
     { media: "(prefers-color-scheme: dark)", color: "black" },
   ],
-  // metadataBase: new URL(siteConfig.url),
   icons: {
     icon: "/favicon.ico",
     shortcut: "/favicon-16x16.png",
@@ -26,14 +26,14 @@ export const metadata: Metadata = {
   },
   authors: [
     {
-      name: "Ahmed Abdelbaset",
-      url: "https://github.com/a7med3bdulbaset",
+      name: "Fadlika Dita Nurjanto",
+      url: "https://github.com/fadlikadn",
     },
   ],
-  creator: "a7med3bdulbaset",
+  creator: "Fadlika Dita Nurjanto",
   openGraph: {
     type: "website",
-    locale: "ar_EG",
+    locale: "id_ID",
     title: siteConfig.name,
     description: siteConfig.description,
     siteName: siteConfig.name,
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     title: siteConfig.name,
     description: siteConfig.description,
     // images: [`${siteConfig.url}/og.jpg`],
-    creator: "@a7med3bdulbaset",
+    creator: "@fadlikadn",
   },
 };
 
