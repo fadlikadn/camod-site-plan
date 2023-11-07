@@ -1,6 +1,6 @@
-import Link from "next/link";
+import Link from "next/link"
 
-import { buttonVariants } from "@/components/ui/button";
+import { buttonVariants } from "@/components/ui/button"
 
 export default function NotFound() {
   return (
@@ -13,5 +13,5 @@ export default function NotFound() {
         </Link>
       </div>
     </div>
-  );
+  )
 }

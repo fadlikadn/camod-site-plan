@@ -1,12 +1,10 @@
-import "@/styles/globals.css";
-
-import { Metadata } from "next";
-
-import { siteConfig } from "@/config/site";
-import { fontSans } from "@/lib/fonts";
-import { cn } from "@/lib/utils";
-import { Providers } from "@/components/providers";
-import { TailwindIndicator } from "@/components/tailwind-indicator";
+import { Providers } from "@/components/providers"
+import { TailwindIndicator } from "@/components/tailwind-indicator"
+import { siteConfig } from "@/config/site"
+import { fontSans } from "@/lib/fonts"
+import { cn } from "@/lib/utils"
+import "@/styles/globals.css"
+import { Metadata } from "next"
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
@@ -45,10 +43,10 @@ export const metadata: Metadata = {
     // images: [`${siteConfig.url}/og.jpg`],
     creator: "@fadlikadn",
   },
-};
+}
 
 interface RootLayoutProps {
-  children: React.ReactNode;
+  children: React.ReactNode
 }
 
 export default function RootLayout({ children }: RootLayoutProps) {
@@ -61,5 +59,5 @@ export default function RootLayout({ children }: RootLayoutProps) {
         </Providers>
       </body>
     </html>
-  );
+  )
 }
