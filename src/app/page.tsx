@@ -2,11 +2,12 @@
 // Happy coding!
 
 // import Link from "next/link";
-// import { GithubIcon } from "lucide-react";
 
-import { siteConfig } from "@/config";
+// import { GithubIcon } from "lucide-react";
+import { ThemeToggle } from "@/components/theme-toggle"
+import { siteConfig } from "@/config"
+
 // import { cn } from "@/lib/utils";
-import { ThemeToggle } from "@/components/theme-toggle";
 
 export default function IndexPage() {
   return (
@@ -21,5 +22,5 @@ export default function IndexPage() {
       {/* eslint-disable-next-line tailwindcss/no-contradicting-classname */}
       <div className="fixed -bottom-1/3 -right-1/3 -z-10 h-[50rem] w-[50rem] animate-pulse rounded-full ![animation-duration:5s] [background-image:radial-gradient(circle_at_center,#9994_0,transparent,transparent_100%)]" />
     </main>
-  );
+  )
 }

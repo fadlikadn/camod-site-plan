@@ -1,15 +1,14 @@
-"use client";
+"use client"
 
-import Link from "next/link";
-
-import { Button, buttonVariants } from "@/components/ui/button";
+import { Button, buttonVariants } from "@/components/ui/button"
+import Link from "next/link"
 
 export default function Error({
   error,
   reset,
 }: {
-  error: Error;
-  reset: () => void;
+  error: Error
+  reset: () => void
 }) {
   return (
     <div className="flex flex-1 flex-col items-center justify-center space-y-4">
@@ -28,5 +27,5 @@ export default function Error({
         </Button>
       </div>
     </div>
-  );
+  )
 }

@@ -31,7 +31,7 @@ module.exports = {
     "prettier/prettier": "warn",
     indent: "off", // handled by prettier
     quotes: ["warn", "double"],
-    semi: "warn",
+    semi: ["error", "never"],
     "no-console": "warn",
     "tailwindcss/no-custom-classname": "off",
     "react/react-in-jsx-scope": "off",
@@ -64,4 +64,4 @@ module.exports = {
     "dist/",
     ".cache/",
   ],
-};
+}
