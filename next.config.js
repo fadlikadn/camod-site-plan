@@ -6,9 +6,17 @@ const nextConfig = {
     serverActions: true,
     typedRoutes: true,
   },
-};
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "**",
+      },
+    ],
+  },
+}
 
-module.exports = nextConfig;
+module.exports = nextConfig
 
 /**
  * To make your app PWA:
