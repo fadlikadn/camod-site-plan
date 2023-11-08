@@ -4,7 +4,7 @@
 // import Link from "next/link";
 
 // import { GithubIcon } from "lucide-react";
-import Layout from "@/components/template/Layout"
+import DashboardLayout from "@/components/template/Layout"
 
 // import { ThemeToggle } from "@/components/theme-toggle"
 // import { siteConfig } from "@/config"
@@ -13,7 +13,7 @@ import Layout from "@/components/template/Layout"
 
 export default function IndexPage() {
   return (
-    <Layout />
+    <DashboardLayout />
     // <main className="container grid max-w-prose items-center gap-6 space-y-4 pb-8 pt-6 text-balance md:py-10">
     //   <div className="flex min-h-[50vh] flex-col justify-center gap-3">
     //     <h1 className="text-5xl font-bold">{siteConfig.title}</h1>
