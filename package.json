@@ -1,6 +1,6 @@
 {
-	"name": "next-template",
-	"description": "Next.js Starter Template with TypeScript, Tailwindcss, Shadcn-ui, ESLint, and Prettier",
+	"name": "camod-site-plan",
+	"description": "CAMOD Site Plan Management",
 	"version": "0.1.0",
 	"private": true,
 	"packageManager": "pnpm@8.10.2",
@@ -19,6 +19,7 @@
 	},
 	"dependencies": {
 		"@headlessui/react": "^1.7.17",
+		"@heroicons/react": "^2.0.18",
 		"@radix-ui/react-slot": "^1.0.2",
 		"class-variance-authority": "^0.7.0",
 		"clsx": "^2.0.0",

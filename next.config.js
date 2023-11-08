@@ -6,9 +6,19 @@ const nextConfig = {
     serverActions: true,
     typedRoutes: true,
   },
-};
+  images: {
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "images.unsplash.com",
+        port: "",
+        pathname: "",
+      },
+    ],
+  },
+}
 
-module.exports = nextConfig;
+module.exports = nextConfig
 
 /**
  * To make your app PWA:
