@@ -46,7 +46,7 @@ const DashboardLayout = () => {
                       <img
                         className="h-8 w-8"
                         src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500"
-                        alt="CAMOD SITEPLAN"
+                        alt="DJAWARA SITEPLANNER"
                       />
                     </div>
                     <div className="hidden md:block">

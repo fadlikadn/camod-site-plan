@@ -1,9 +1,9 @@
 export type SiteConfig = typeof siteConfig
 
 export const siteConfig = {
-  name: "CAMOD SITEPLAN",
+  name: "DJAWARA SITEPLANNER",
   url: "https://camod-site-plan.vercel.app", //TODO: need adjust by env value
-  title: "CAMOD SITE PLAN",
+  title: "DJAWARA SITEPLANNER",
   description: "A tool to help property business owner to create site easily",
   mainNav: [
     {
