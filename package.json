@@ -1,6 +1,6 @@
 {
 	"name": "camod-site-plan",
-	"description": "CAMOD Site Plan Management",
+	"description": "DJAWARA SITEPLANNER",
 	"version": "0.1.0",
 	"private": true,
 	"packageManager": "pnpm@8.10.2",

@@ -25,7 +25,7 @@ export const shadcnPlugin = plugin(
         "--radius": "0.5rem",
       },
       ".dark": {
-        "--background": "215 50% 8%",
+        "--background": "224 71% 4%",
         "--foreground": "213 31% 91%",
         "--muted": "223 47% 11%",
         "--muted-foreground": "215.4 16.3% 56.9%",
@@ -121,8 +121,9 @@ export const shadcnPlugin = plugin(
           sm: "calc(var(--radius) - 4px)",
         },
         fontFamily: {
-          // sans: ["var(--font-sans)", ...fontFamily.sans],
-          sans: ["Inter var", ...fontFamily.sans],
+          sans: ["var(--font-sans)", ...fontFamily.sans],
+          // sans: ["Inter var", ...fontFamily.sans],
+          heading: ["var(--font-heading)", ...fontFamily.sans],
         },
         keyframes: {
           "accordion-down": {
